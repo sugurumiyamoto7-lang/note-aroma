@@ -16,7 +16,7 @@ if st.button("生成する"):
         st.error("APIキーを入力してください")
     else:
         genai.configure(api_key=api_key)
-        model = genai.GenerativeModel("gemini-1.5-flash")
+        model = genai.GenerativeModel("gemini-1.5-pro")
 
         prompt = f"""
 あなたは「占い×アロマ」を毎日Noteで配信する日本語ライター。
