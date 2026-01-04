@@ -1,6 +1,8 @@
 import streamlit as st
 import datetime
+import os
 import google.generativeai as genai
+
 
 st.title("🔮 今日の運勢 × アロマ（Note用）")
 
